@@ -3,7 +3,7 @@ import { createStore } from "redux";
 import { Provider } from 'react-redux'
 import rootReducer from './store/reducers';
 import ListContainer from "./components/list/ListContainer";
-import './App.css';
+import './App.scss';
 
 const store = createStore(rootReducer);
 

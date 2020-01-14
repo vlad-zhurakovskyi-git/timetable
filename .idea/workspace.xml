@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67255d30-ac3d-46bb-8aa2-738b1673cece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/list/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/ListContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/timeTable/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/timeTable/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/List.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/input" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/input" />
       <recent name="$PROJECT_DIR$/src/components/list" />
       <recent name="$PROJECT_DIR$/src/store/timeTable" />
       <recent name="$PROJECT_DIR$/src/store" />
@@ -82,7 +79,7 @@
       <updated>1578667303541</updated>
       <workItem from="1578667305139" duration="1390000" />
       <workItem from="1578669803227" duration="386000" />
-      <workItem from="1578746060254" duration="40480000" />
+      <workItem from="1578746060254" duration="50715000" />
     </task>
     <task id="LOCAL-00001" summary="hosting setup">
       <created>1578751550146</created>
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578751550146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added editing ability for fields">
+      <created>1579019884531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579019884532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hosting setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="hosting setup" />
+    <MESSAGE value="added editing ability for fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="added editing ability for fields" />
   </component>
 </project>

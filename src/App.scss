@@ -1,0 +1,53 @@
+* {
+  outline: none;
+}
+
+div:empty {
+  display: none;
+}
+
+.todo-list {
+  display: flex;
+}
+
+.day {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.pair {
+  position: relative;
+  display: flex;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.col {
+  width: 33%;
+}
+
+.field {
+  width: 100%;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  border-top: none;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  text-align: center;
+
+  &:focus {
+    border-color: red;
+  }
+}
+
+.week2 {
+  display: none;
+}
