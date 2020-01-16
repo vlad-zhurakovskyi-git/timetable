@@ -32,7 +32,7 @@ export default function Input(props) {
     const {value, readOnly, key, week, day, pair, field} = props;
 
     return(
-        <input onChange={editField.bind(this, week, day, pair, field)}
+        <input onChange={editField.bind(null, week, day, pair, field)}
                value={value}
                readOnly={readOnly}
                key={key}

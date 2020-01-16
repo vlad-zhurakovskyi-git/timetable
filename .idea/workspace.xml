@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67255d30-ac3d-46bb-8aa2-738b1673cece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Item/ItemContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/List.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,15 +23,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Item" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Item" />
       <recent name="$PROJECT_DIR$/src/components/input" />
       <recent name="$PROJECT_DIR$/src/components/list" />
       <recent name="$PROJECT_DIR$/src/store/timeTable" />
@@ -79,7 +79,7 @@
       <updated>1578667303541</updated>
       <workItem from="1578667305139" duration="1390000" />
       <workItem from="1578669803227" duration="386000" />
-      <workItem from="1578746060254" duration="50715000" />
+      <workItem from="1578746060254" duration="59981000" />
     </task>
     <task id="LOCAL-00001" summary="hosting setup">
       <created>1578751550146</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579019884532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="decomposied the component of list">
+      <created>1579032563652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579032563652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hosting setup" />
     <MESSAGE value="added editing ability for fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="added editing ability for fields" />
+    <MESSAGE value="decomposied the component of list" />
+    <option name="LAST_COMMIT_MESSAGE" value="decomposied the component of list" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/input/Input.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

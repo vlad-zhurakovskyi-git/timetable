@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   outline: none;
 }
 
@@ -18,10 +19,23 @@ div:empty {
 .pair {
   position: relative;
   display: flex;
-  width: 300px;
+
+  width: 320px;
   margin-bottom: 10px;
-  padding: 20px;
-  border: 1px solid #ccc;
+
+  div {
+    display: block;
+    width: 25%;
+
+    &:last-child {
+      width: 150px;
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .col {
@@ -32,21 +46,21 @@ div:empty {
   width: 100%;
 }
 
-.time {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 44px;
-  border-top: none;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-left: none;
-  text-align: center;
-
-  &:focus {
-    border-color: red;
-  }
-}
+//.time {
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  width: 44px;
+//  border-top: none;
+//  border-right: 1px solid #ccc;
+//  border-bottom: 1px solid #ccc;
+//  border-left: none;
+//  text-align: center;
+//
+//  &:focus {
+//    border-color: red;
+//  }
+//}
 
 .week2 {
   display: none;
