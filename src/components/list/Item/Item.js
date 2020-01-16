@@ -15,7 +15,6 @@ export default function Item(props) {
                         editMode={editMode}
                         item={item}
                         readOnly={readOnly}
-
                     />
                 </div>
             )}

@@ -15,6 +15,7 @@ export default function Pair(props) {
                         item={item}
                         day={day}
                         pair={pair}
+                        week={item.id}
                     />
                 </div>
             ))}

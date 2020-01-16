@@ -2,8 +2,7 @@ import React from 'react';
 import Input from "../../../../input/Input";
 
 export default function Field(props) {
-    const {collection, readOnly, item, day, pair} = props;
-
+    const {collection, readOnly, item, week, day, pair} = props;
 
     return(
         <React.Fragment>
@@ -13,7 +12,7 @@ export default function Field(props) {
 
                     <Input
                         collection={collection}
-                        week={item.id}
+                        week={week}
                         day={day}
                         pair={pair}
                         field={field}

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67255d30-ac3d-46bb-8aa2-738b1673cece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/ItemEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/Day.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/field/Field.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/pair/Pair.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/ItemContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/ListContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/ListContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/field/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/field/Field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/pair/Pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/pair/Pair.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +80,7 @@
       <updated>1578667303541</updated>
       <workItem from="1578667305139" duration="1390000" />
       <workItem from="1578669803227" duration="386000" />
-      <workItem from="1578746060254" duration="65657000" />
+      <workItem from="1578746060254" duration="70103000" />
     </task>
     <task id="LOCAL-00001" summary="hosting setup">
       <created>1578751550146</created>
@@ -116,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579186473555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="decomposied components: Day, Pair, Field">
+      <created>1579204305765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579204305765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +141,8 @@
     <MESSAGE value="added editing ability for fields" />
     <MESSAGE value="decomposied the component of list" />
     <MESSAGE value="decomposied the component of item" />
-    <option name="LAST_COMMIT_MESSAGE" value="decomposied the component of item" />
+    <MESSAGE value="decomposied components: Day, Pair, Field" />
+    <option name="LAST_COMMIT_MESSAGE" value="decomposied components: Day, Pair, Field" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
