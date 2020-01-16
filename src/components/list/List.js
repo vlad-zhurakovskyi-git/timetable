@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ItemContainer from "../Item/ItemContainer";
+import ItemContainer from "./Item/ItemContainer";
 
 export default class List extends Component {
 
