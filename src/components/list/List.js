@@ -8,7 +8,9 @@ export default class List extends Component {
 
         return(
             <section className="todo-list">
-                <ItemContainer collection={collection}/>
+                <div className="item">
+                    <ItemContainer collection={collection}/>
+                </div>
             </section>
         )
     }

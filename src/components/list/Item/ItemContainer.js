@@ -24,11 +24,17 @@ export default class ItemContainer extends Component {
         const { readOnly } = this.state;
 
         return(
-            <Item
-                collection={collection}
-                editMode={this.editMode}
-                readOnly={readOnly}
-            />
+            <React.Fragment>
+                {collection.map(( item, itemIndex ) =>
+                    <Item
+                        collection={collection}
+                        item={item}
+                        itemIndex={itemIndex}
+                        editMode={this.editMode}
+                        readOnly={readOnly}
+                    />
+                )}
+            </React.Fragment>
         )
     }
 }
