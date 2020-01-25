@@ -7,8 +7,7 @@ export default function Field(props) {
     return(
         <React.Fragment>
             {Object.keys(item[day][pair]).map((field, fieldIndex) => (
-                <div key={fieldIndex}>
-                    {field}
+                <div key={fieldIndex} className="day__col">
 
                     <Input
                         collection={collection}

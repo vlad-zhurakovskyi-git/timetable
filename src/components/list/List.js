@@ -1,53 +1,52 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Item from "./Item/Item";
 
-export default class List extends Component {
+function tabPanel(collection) {
+    return(
+        <React.Fragment>
+            <TabPanel>
+                {collection.map(( item, itemIndex ) =>
+                    <div key={itemIndex}>
+                        {item.id === 'week1' && <Item
+                            collection={collection}
+                            item={item}
+                            itemIndex={itemIndex}
+                        />}
+                    </div>
+                )}
+            </TabPanel>
 
-    tabPanel(collection) {
-        return(
-            <React.Fragment>
-                <TabPanel>
-                    {collection.map(( item, itemIndex ) =>
-                        <div key={itemIndex}>
-                            {item.id === 'week1' && <Item
-                                collection={collection}
-                                item={item}
-                                itemIndex={itemIndex}
-                            />}
-                        </div>
-                    )}
-                </TabPanel>
+            <TabPanel>
+                {collection.map(( item, itemIndex ) =>
+                    <div key={itemIndex}>
+                        {item.id === 'week2' && <Item
+                            collection={collection}
+                            item={item}
+                            itemIndex={itemIndex}
+                        />}
+                    </div>
+                )}
+            </TabPanel>
+        </React.Fragment>
+    )
+}
 
-                <TabPanel>
-                    {collection.map(( item, itemIndex ) =>
-                        <div key={itemIndex}>
-                            {item.id === 'week2' && <Item
-                                collection={collection}
-                                item={item}
-                                itemIndex={itemIndex}
-                            />}
-                        </div>
-                    )}
-                </TabPanel>
-            </React.Fragment>
-        )
-    }
+export default function List(props) {
 
-    render() {
-        const { collection, editMode, readOnly } = this.props;
+    const { collection, editMode } = props;
 
-        return(
-            <section className="list">
-                <Tabs>
-                    <TabList>
-                        <Tab>Первая неделя</Tab>
-                        <Tab>Вторая неделя</Tab>
-                    </TabList>
+    return(
+        <section className="list">
+            <Tabs>
+                <TabList>
+                    <Tab>First week</Tab>
+                    <Tab>Second week</Tab>
+                </TabList>
 
-                    {this.tabPanel(collection, editMode, readOnly)}
-                </Tabs>
-            </section>
-        )
-    }
+                {tabPanel(collection, editMode)}
+            </Tabs>
+        </section>
+    )
+
 }

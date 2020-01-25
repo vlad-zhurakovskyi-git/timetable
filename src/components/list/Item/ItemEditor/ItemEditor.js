@@ -5,7 +5,7 @@ export default function ItemEditor(props) {
     const {collection, item} = props;
 
     return(
-        <section className="item">
+        <section className="week__wrapper">
             {Object.keys(item).map((day, dayIndex) => (
                 <DayContainer
                     collection={collection}
