@@ -3,9 +3,8 @@ import Notes from "./Notes";
 import firebase from "firebase";
 
 export default class NotesContainer extends Component{
-    editField(event, week, day) {
-        const keyUpdate = `${day}.notes`;
-        console.log(keyUpdate)
+    editField(week, day, event) {
+        const keyUpdate = `day1.notes`;
 
         firebase.firestore().collection("time-table").doc(week).update( {
             [keyUpdate]: event.target.value
@@ -13,8 +12,6 @@ export default class NotesContainer extends Component{
     }
     render() {
         const {day, week, notesText} = this.props;
-
-        console.log(notesText);
 
         return(
             <Notes

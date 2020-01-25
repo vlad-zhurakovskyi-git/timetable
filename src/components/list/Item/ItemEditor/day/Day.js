@@ -52,7 +52,7 @@ export default function Day(props) {
                 </button>
 
                 <button className="day__btn day__btn_notes" onClick={notesMode}>
-                    Notes
+                    {popupNotes ? 'Save' : 'Notes'}
                 </button>
             </div>
         </div>
