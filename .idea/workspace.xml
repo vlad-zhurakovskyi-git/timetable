@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67255d30-ac3d-46bb-8aa2-738b1673cece" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/DayContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/list/Item/tabs/Tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/Item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/ItemEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/ItemEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/Day.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/Day.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/List.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/list/Item/ItemEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/list/Item/tabs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -30,15 +37,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/list" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/list/Item/tabs" />
+      <recent name="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day" />
       <recent name="$PROJECT_DIR$/src/components/list/Item/ItemEditor" />
       <recent name="$PROJECT_DIR$/src/components/list/Item/ItemEditor/pair" />
       <recent name="$PROJECT_DIR$/src/components/list/Item/data" />
-      <recent name="$PROJECT_DIR$/src/components/Item" />
-      <recent name="$PROJECT_DIR$/src/components/input" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/list" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +88,10 @@
       <workItem from="1578667305139" duration="1390000" />
       <workItem from="1578669803227" duration="386000" />
       <workItem from="1578746060254" duration="71269000" />
-      <workItem from="1579285676642" duration="388000" />
+      <workItem from="1579285676642" duration="1876000" />
+      <workItem from="1579529590824" duration="192000" />
+      <workItem from="1579941979315" duration="299000" />
+      <workItem from="1579942367103" duration="5074000" />
     </task>
     <task id="LOCAL-00001" summary="hosting setup">
       <created>1578751550146</created>
@@ -125,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579209634035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="decomposied components Item, ItemContainer">
+      <created>1579287063073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579287063073</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +168,8 @@
     <MESSAGE value="decomposied the component of item" />
     <MESSAGE value="decomposied components: Day, Pair, Field" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="decomposied components Item, ItemContainer" />
+    <option name="LAST_COMMIT_MESSAGE" value="decomposied components Item, ItemContainer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

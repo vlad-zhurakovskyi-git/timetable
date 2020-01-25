@@ -6,8 +6,6 @@ export default function Item(props) {
 
     return(
         <div className={`week ${item.id}`} key={itemIndex}>
-            <button onClick={editMode}>Редактировать</button>
-
             <ItemEditor
                 collection={collection}
                 editMode={editMode}

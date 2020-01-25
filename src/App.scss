@@ -7,20 +7,28 @@ div:empty {
   display: none;
 }
 
-.todo-list {
+.list {
   display: flex;
+
+  &__wraper {
+
+  }
 }
 
 .day {
   padding: 20px;
   border: 1px solid #ccc;
+
+  &__week {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
 }
 
 .pair {
   position: relative;
   display: flex;
 
-  //width: 320px;
   margin-bottom: 10px;
 
   div {
@@ -35,6 +43,10 @@ div:empty {
   input {
     width: 100%;
     padding: 0;
+
+    &[readOnly] {
+      border-color: transparent;
+    }
   }
 }
 
@@ -46,22 +58,6 @@ div:empty {
   width: 100%;
 }
 
-//.time {
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  width: 44px;
-//  border-top: none;
-//  border-right: 1px solid #ccc;
-//  border-bottom: 1px solid #ccc;
-//  border-left: none;
-//  text-align: center;
-//
-//  &:focus {
-//    border-color: red;
-//  }
-//}
-
-.week2 {
-  display: none;
+.item {
+  display: flex;
 }
