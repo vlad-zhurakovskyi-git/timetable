@@ -25,7 +25,9 @@ class ListContainer extends Component{
         const { collection } = this.props;
 
         return(
-            <List collection={ collection }/>
+            <List
+                collection={collection}
+            />
         )
     }
 }

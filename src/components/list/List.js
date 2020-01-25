@@ -1,31 +1,52 @@
 import React, {Component} from 'react';
-import ItemContainer from "./Item/ItemContainer";
-import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Item from "./Item/Item";
 
 export default class List extends Component {
 
+    tabPanel(collection) {
+        return(
+            <React.Fragment>
+                <TabPanel>
+                    {collection.map(( item, itemIndex ) =>
+                        <div key={itemIndex}>
+                            {item.id === 'week1' && <Item
+                                collection={collection}
+                                item={item}
+                                itemIndex={itemIndex}
+                            />}
+                        </div>
+                    )}
+                </TabPanel>
+
+                <TabPanel>
+                    {collection.map(( item, itemIndex ) =>
+                        <div key={itemIndex}>
+                            {item.id === 'week2' && <Item
+                                collection={collection}
+                                item={item}
+                                itemIndex={itemIndex}
+                            />}
+                        </div>
+                    )}
+                </TabPanel>
+            </React.Fragment>
+        )
+    }
+
     render() {
-        const { collection } = this.props;
+        const { collection, editMode, readOnly } = this.props;
 
         return(
             <section className="list">
-                <div className="list__wrapper">
-                    <Tabs>
-                        <TabList>
-                            <Tab>Title 1</Tab>
-                            <Tab>Title 2</Tab>
-                        </TabList>
+                <Tabs>
+                    <TabList>
+                        <Tab>Первая неделя</Tab>
+                        <Tab>Вторая неделя</Tab>
+                    </TabList>
 
-                        <TabPanel>
-                            123
-                        </TabPanel>
-                        <TabPanel>
-                            321
-                        </TabPanel>
-                    </Tabs>
-
-                    <ItemContainer collection={collection}/>
-                </div>
+                    {this.tabPanel(collection, editMode, readOnly)}
+                </Tabs>
             </section>
         )
     }

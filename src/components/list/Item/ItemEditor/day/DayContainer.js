@@ -1,20 +1,39 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Day from "./Day";
 
-export default function DayContainer(props) {
-    const {collection, readOnly, item, editMode, day, dayIndex} = props;
+export  default  class DayContainer extends Component{
+    constructor(props) {
+        super(props);
 
-    return(
-        <React.Fragment>
-            {!item[day].length &&
+        this.state = {
+            readOnly: true
+        };
+
+        this.editMode = this.editMode.bind(this);
+    }
+
+    editMode() {
+        this.setState({
+            readOnly: !this.state.readOnly
+        })
+    }
+
+    render() {
+        const {collection, item, day, dayIndex} = this.props;
+        const {readOnly} = this.state;
+
+        return(
+            <React.Fragment>
+                {!item[day].length &&
                 <Day collection={collection}
-                   readOnly={readOnly}
-                   editMode={editMode}
-                   item={item}
-                   day={day}
-                   key={dayIndex}
+                     readOnly={readOnly}
+                     editMode={this.editMode}
+                     item={item}
+                     day={day}
+                     key={dayIndex}
                 />
-            }
-        </React.Fragment>
-    )
+                }
+            </React.Fragment>
+        )
+    }
 }
