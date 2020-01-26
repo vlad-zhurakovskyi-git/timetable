@@ -35,9 +35,6 @@ class ListContainer extends Component{
 const mapStateToProps = state => {
     return {
         collection: state.timeTable.collection,
-        time: state.time,
-        room: state.room,
-        title: state.title,
     }
 };
 
