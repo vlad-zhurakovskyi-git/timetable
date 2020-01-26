@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67255d30-ac3d-46bb-8aa2-738b1673cece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/ListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/ListContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/notes/NotesContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/Item/ItemEditor/day/notes/NotesContainer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1579285676642" duration="1876000" />
       <workItem from="1579529590824" duration="192000" />
       <workItem from="1579941979315" duration="299000" />
-      <workItem from="1579942367103" duration="23520000" />
+      <workItem from="1579942367103" duration="23981000" />
     </task>
     <task id="LOCAL-00001" summary="hosting setup">
       <created>1578751550146</created>
