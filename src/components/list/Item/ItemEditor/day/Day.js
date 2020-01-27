@@ -1,6 +1,6 @@
 import React from 'react';
 import Pair from "../pair/Pair";
-import NotesContainer from "./notes/NotesContainer";
+import NotesContainer from "../notes/NotesContainer";
 
 export default function Day(props) {
     const {
